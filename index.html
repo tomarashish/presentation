@@ -76,24 +76,40 @@
                     <section>
                         <h3>GraPhlAn</h3>
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Generates circular phylogenies integrated with high-dimensional metadata.</li>
+                            <li>Visualization of phylogenetic, functional, and taxonomic summaries</li>
+                            <li>Highlights the taxonomic origins of metagenomic biomarkers</li>
+                            <li>Exposing specific microbiome metabolic enrichments within a functional ontology</li>
                         </ul>
                         <aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						
 					</aside>
                     </section>
                     <section>
                         <h4>GraPhlAn</h4>
-                        <img width="500" height="500" src="img/">
-                         <p><font size="2">Fig.3 .[2]</font></p>
+                        <img width="500" height="500" src="img/graphlan3.png">
+                         <p><font size="2">Fig.3 The taxonomic cladogram shows a comparison between the
+MetaHIT and HMP studies.[2]</font></p>
+                        <aside class="notes">
+						Colors distinguish between HMP (green) and MetaHIT (blue), while the intensity reflects the LDA score, an indicator of the effect sizes of the significant differences. The size of the nodes correlates with their  relative and logarithmically scaled abundances.
+					</aside>
+                    </section>
+                    <section>
+                        <h4>GraPhlAn</h4>
+                        <img width="500" height="500" src="img/graphlan2.png">
+                         <p><font size="2">Fig.4.1 Comparison of microbial community metabolic pathway abundances between HMP and MetaHIT.[2]</font></p>
+                        <aside class="notes">
+						Comparison of functional pathway
+abundances from the HMP (green) and MetaHIT (blue). This is the functional counterpart of the plot in Fig. 3 and was obtained applying GraPhlAn on HUMAnN (Abubucker et al., 2012) metabolic profiling. The intensity of the color represents the LDA score, and the sizes of the nodes are proportional to the pathway relative abundance estimated by HUMAnN. Three major groups are automatically highlighted by specifying them to the export2graphlan script: Environmental Information Processing, Genetic Information Processing, and Metabolism. Data used for this image is available as indicated under “Datasets used” paragraph in “Materials and Methods” section.
+					</aside>
                     </section>
                     <section>
                         <h4>GraPhlAn</h4>
                         <img width="500" height="500" src="img/graphlan_func_anno.jpg">
-                         <p><font size="2">Fig.4 .[2]</font></p>
+                         <p><font size="2">Fig.4.2 genome phylogeny annotated with functional genomic properties.[2]</font></p>
+                        <aside class="notes">
+						annotated the presence of ATP synthesis and Fatty Acid metabolism functional modules (as annotated in KEGG) and the genome length for all genomes. Colors and background annotation highlight bacterial phyla, and the functional information is reported in external rings. ATP synthesis rings visualize the presence (or absence) of each module, while Fatty Acid metabolism capability is represented with a gradient color. 
+					</aside>
                     </section>
 				</section>
 
@@ -241,12 +257,12 @@
                 <section style="text-align: left;">
 					<h4>Reference</h4>
                     <ol><font size="3">
-                        <li><b>krona : </b>http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-385</li>
-                         <li><b>GraPhlAn : </b> https://peerj.com/articles/1029.pdf</li>
-                        <li><b>AmphoraVizu :</b>http://pitgroup.org/amphoravizu/</li>
-                        <li><b>Elviz : </b> http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0566-4#Fig2</li>
-                        <li><b>MGAViewer : </b> http://bioinformatics.oxfordjournals.org/content/29/1/122.full</li>
-                        <li><b>synTview : </b> http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-277#CR20</li>
+                        <li><b>Krona : </b><a href="http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-385">http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-385</li>
+                        <li><b>GraPhlAn : </b> <a href="https://peerj.com/articles/1029.pdf">https://peerj.com/articles/1029.pdf</a></li>
+                        <li><b>AmphoraVizu :</b><a href="http://pitgroup.org/amphoravizu/">http://pitgroup.org/amphoravizu/</a></li>
+                        <li><b>Elviz : </b><a href="http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0566-4#Fig2"> http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0566-4#Fig2</a></li>
+                        <li><b>MGAViewer : </b><a href="http://bioinformatics.oxfordjournals.org/content/29/1/122.full"> http://bioinformatics.oxfordjournals.org/content/29/1/122.full</a></li>
+                        <li><b>synTview : </b> <a href="http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-277#CR20">http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-277#CR20</a></li>
                         </font>
                     </ol>
 				</section>
